@@ -1,2 +1,13 @@
 # auto-photo-cropper
 한국산업인력공단 경북지사 : 스캔한 증명사진을 테두리 및 여백을 감지하여 규격에 맞게 자동 커팅 및 저장
+
+cmd 실행 방법 : 
+cd C:\Users\자격시험부\Desktop\python
+venv_build\Scripts\activate
+rmdir /s /q build
+rmdir /s /q dist
+build_exe.bat
+
+> 다른 pc에서는 경로 재설정 후 진행 > dist 폴더 내 exe 파일 실행.
+> exe 파일 자체를 다른 경로로 이동하면 오류 발생. 바로가기 생성 or 작업표시줄 고정으로 사용 권장.
+> 내부/외부망 모두 사용 가능
