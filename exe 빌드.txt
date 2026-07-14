@@ -1,0 +1,9 @@
+cd C:\Users\자격시험부\Desktop\python
+
+venv_build\Scripts\activate
+
+rmdir /s /q build
+
+rmdir /s /q dist
+
+build_exe.bat
